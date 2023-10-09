@@ -1,13 +1,13 @@
 ### CSS-NOTES
 
 #### Responsive Image
-```
+```css
 .demo-img {display:flex;justify-content:center;} /* Center Image */
 .demo-img img{width:100%;max-width:200px;} /* Responsive Image */
 <div class="demo-img"><img src="demo.jpg"></div>
 ```
 #### Responsive Tiles
-```
+```css
 .tile-container {
  	display: flex;
  	flex-direction:row;
